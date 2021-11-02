@@ -36,3 +36,12 @@
        display: inline-block;
        width: 45%; 
     }
+
+    .copyright_footer{
+        position: fixed;
+        bottom: 0px;
+        padding: 10px;
+        background-color: darkolivegreen;
+        width: 100%;
+        color: white;
+    }

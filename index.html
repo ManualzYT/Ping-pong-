@@ -17,13 +17,12 @@
     <body background="background.jpg">
      
         <script src="main.js"></script>
-        <button onclick="restart();" class="btn btn-success">Restart</button>
         <center>
             <div class="btn btn-primary heading">
               <h3>AI Ping Pong Game</h3>
               <button class="btn btn-warning" data-toggle="modal" data-target="#myModal">Instructions</button>
             </div>
-            <img src="mario.jpg" class="big_image">
+            <img src="ping-pong.jpg" class="big_image">
             <br>
             <br>
             <button class="btn btn-success" onclick="start_game();" id="start">Play Game</button>
@@ -33,7 +32,9 @@
             <br>
             <br>
             <div id="canvas"> </div>
-            <div id="game_console"></div>
+            <br>
+            <br>
+            <button class="btn btn-danger" onclick="restart_game();" id="restart">Restart</button>
             <div id="myModal" class="modal fade">
               <div class="modal-dialog">
               <div class="modal-content">
@@ -42,11 +43,11 @@
                  <h4>Instructions</h4>
                 </div>
                 <div class="modal-body">
-                  <h1>1. First keep your screen straight</h1>
-                  <h2>2. Get about 3-4 feet away from your screen</h2>
+                  <h3>1. First keep your screen straight</h3>
+                  <h3>2. Get about 3-4 feet away from your screen</h3>
                   <h3>3. Move your right wrist in an ascending and descending manner, a red dot should appear on your right wrist</h3>
-                  <h69>4.Now press the play button (remember, stay 3-4 feet away from the screen)</h69>
-                  <h5>5.The red paddel is your paddel, that will move as per the movement of your right wrist</h5>
+                  <h3>4.Now press the play button (remember, stay 3-4 feet away from the screen)</h3>
+                  <h3>5.The red paddel is your paddel, that will move as per the movement of your right wrist</h3>
                 </div>
               </div>
               </div>
@@ -55,5 +56,6 @@
       
       
           </center>
+          <h4 class="copyright_footer">Developed by - Manvel</h4>
     </body>
 </html>
